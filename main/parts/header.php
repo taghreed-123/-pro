@@ -25,11 +25,11 @@
                                                                         echo 'active'; ?>" style="color:teal;">الرئيسية</a> </li>
             <?php if (!empty($_SESSION['user_id'])) {
               if ($_SESSION['user_type'] != 'business') { ?>
-                <li class="nav-item"><a href="storeslist.php" class="nav-link  <?php if ($active_page == 'storeslist.php')
+                <li class="nav-item"><a href="storeslist.php" class="nav-link <?php if ($active_page == 'storeslist.php')
                                                                                   echo 'active'; ?>" style="color:teal;">المتاجر</a> </li>
               <?php }
             } else { ?>
-              <li class="nav-item"><a href="storeslist.php" class="nav-link  <?php if ($active_page == 'storeslist.php')
+              <li class="nav-item"><a href="storeslist.php" class="nav-link <?php if ($active_page == 'storeslist.php')
                                                                                 echo 'active'; ?>" style="color:teal;">المتاجر</a> </li>
             <?php }
             if (!empty($_SESSION['user_id'])) { ?>
