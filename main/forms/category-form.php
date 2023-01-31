@@ -63,9 +63,9 @@
             <div class="col-12 form-group-center mb-3  text-right">
               <div class="form-check" >
                 <input type="checkbox" class="form-check-input" name="CategoryType" id="" placeholder="  تصنيف منتج" <?php if (!empty($_GET['id']))
-                                                                          if($category->Category->category_type==1)echo "checked"; ?>> 
+                                                                          if($category->Category->category_type==1)echo "checked"; ?>>
                 <label class="form-check-label" for="flexCheckDefault" style="padding-right:20px;">
-                   تصنيف كمنتج 
+                   تصنيف كمنتج
                 </label>
               </div>
             </div>
@@ -76,7 +76,7 @@
             </div>
             <div class="col-12 btn-center">
               <button type="submit" class="btn btn-primary btn-md" style="color:#fff;background-color: #216869;">حفظ</button>
-              <a href="/FurnitureWebSite/Categories.php" class="btn btn-primary btn-md" style="color:#fff;background-color: #216869;">جدول التصنيف</a>
+              <a href="/-pro/categories.php" class="btn btn-primary btn-md" style="color:#fff;background-color: #216869;">جدول التصنيف</a>
             </div>
         </div>
 
