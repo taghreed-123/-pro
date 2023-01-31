@@ -20,7 +20,7 @@
           <ul class="navbar nav justify-content-center nav-tabs">
             <li class="nav-item"><a href="Users.php" class="nav-link <?php if ($active_page == 'Users.php')
                                                                         echo 'active'; ?>" style="color:teal;">الحسابات</a> </li>
-            <li class="nav-item"><a href="categories.php" class="nav-link  <?php if ($active_page == 'Categories.php')
+            <li class="nav-item"><a href="categories.php" class="nav-link  <?php if ($active_page == 'categories.php')
                                                                               echo 'active'; ?>" style="color:teal;">التصنيفات</a> </li>
             <li class="nav-item"><a href="products.php" class="nav-link  <?php if ($active_page == 'products.php')
                                                                             echo 'active'; ?>" style="color:teal;">المنتجات</a> </li>
@@ -50,7 +50,6 @@
                                                     echo 'userProfile.php?id=' . $_SESSION['user_id']; ?>">الملف الشخصي</a>
                   <a class="dropdown-item" href="all_reports.php">الشكاوي</a>
                   <a class="dropdown-item" href="editProfile.php?id=<?php echo $_SESSION['user_id']; ?>"><img src="main/images/setting.png" style="width:20px;height:20px;" /> اعدادات الحساب</a>
-                  <a class="dropdown-item" href="users.php"><img src="main/images/setting.png" style="width:20px;height:20px;" /> لوحة التحكم</a>
                   <a class="dropdown-item" href="login.php?logout=1"> <img src="img/logout.png" alt="logout" style="width:20px;height:20px;"> تسجيل خروج </a>
                 </div>
               </div>
