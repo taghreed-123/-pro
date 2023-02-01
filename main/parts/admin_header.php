@@ -19,7 +19,7 @@
 
           <ul class="navbar nav justify-content-center nav-tabs">
             <li class="nav-item"><a href="Users.php" class="nav-link <?php if ($active_page == 'Users.php')
-                                                                        echo 'active'; ?>" style="color:teal;">الحسابات</a> </li>
+                                                                        echo 'active'; ?>" style="color:teal;">لوحة التحكم</a> </li>
             <li class="nav-item"><a href="categories.php" class="nav-link <?php if ($active_page == 'categories.php')
                                                                               echo 'active'; ?>" style="color:teal;">التصنيفات</a> </li>
             <li class="nav-item"><a href="products.php" class="nav-link <?php if ($active_page == 'products.php')
